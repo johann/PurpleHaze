@@ -1,0 +1,5 @@
+#include "Pods-PurpleHaze-ZLSwipeableView.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/ZLSwipeableView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JFMinimalNotifications" "${PODS_ROOT}/Headers/Public/M13BadgeView" "${PODS_ROOT}/Headers/Public/Onboard" "${PODS_ROOT}/Headers/Public/UIColor+FlatColors" "${PODS_ROOT}/Headers/Public/ZLSwipeableView"
+OTHER_LDFLAGS = ${PODS_PURPLEHAZE_ZLSWIPEABLEVIEW_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

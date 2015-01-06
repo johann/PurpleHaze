@@ -1,0 +1,31 @@
+PODS:
+  - JFMinimalNotifications (0.0.2)
+  - M13BadgeView (1.0.4)
+  - Onboard (1.1)
+  - UIColor+FlatColors (0.0.2)
+  - ZLSwipeableView (0.0.6)
+
+DEPENDENCIES:
+  - JFMinimalNotifications (~> 0.0.2)
+  - M13BadgeView (~> 1.0.2)
+  - Onboard (from `https://github.com/mamaral/Onboard.git`)
+  - UIColor+FlatColors
+  - ZLSwipeableView
+
+EXTERNAL SOURCES:
+  Onboard:
+    :git: https://github.com/mamaral/Onboard.git
+
+CHECKOUT OPTIONS:
+  Onboard:
+    :commit: ddf33c708b73f979b4644a899f90b5293c72a9da
+    :git: https://github.com/mamaral/Onboard.git
+
+SPEC CHECKSUMS:
+  JFMinimalNotifications: 8d8953b7c64a9def469abbd6ba051b47ff53946e
+  M13BadgeView: 25d03b04630496dfdb6c3f8eb793f6b1664495f8
+  Onboard: 40270e520b6df51e90de7fe0d57eb54057dc22d9
+  UIColor+FlatColors: 15506ef6472e26a751033f2f2469283800bcb906
+  ZLSwipeableView: 9e956c587f9aecd16596544a7d079fb86b9c8c3d
+
+COCOAPODS: 0.35.0

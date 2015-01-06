@@ -7,8 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+@class ViewController;
+@class Card;
+@class Stack;
+@class Deck;
 
 @interface ViewController : UIViewController
+
+
+
+@property (nonatomic, strong) Deck *deckCards;
+@property (nonatomic, strong) Card *currentCard;
+
+- (IBAction)higherAction:(id)sender;
+- (IBAction)reloadDeck:(id)sender;
+- (IBAction)lowerAction:(id)sender;
+
 
 
 @end
